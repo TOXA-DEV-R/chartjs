@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+#root{
+  padding: 25px;
+  background: #FAFAFB;
+}
+
+.container{
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ic {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #000;
+  mask: {
+    repeat: no-repeat;
+    size: 100%;
+    position: center center;
+  }
+}
+
+.ic_bell {
+  mask-image: url("../assets/icons/bell.svg");
+}
+.ic_menu {
+  mask-image: url("../assets/icons/menu.svg");
+}
+.ic_chart-up {
+  mask-image: url("../assets/icons/chart-up.svg");
+}
+
+.ic_grid {
+  mask-image: url("../assets/icons/grid.svg");
+}
+
+.ic_reception-service {
+  mask-image: url("../assets/icons/reception-service.svg");
+}
+
+.ic_guest-profiles {
+  mask-image: url("../assets/icons/guest-profiles.svg");
+}
+
+.ic_keyboard {
+  mask-image: url("../assets/icons/keyboard.svg");
+}
+
+.ic_menu-outline {
+  mask-image: url("../assets/icons/menu-outline.svg");
+}
+
+.ic_credit-card-outline {
+  mask-image: url("../assets/icons/credit-card-outline.svg");
+}
+.ic_settings {
+  mask-image: url("../assets/icons/settings-outline.svg");
+}
+
+.ic_message-square {
+  mask-image: url("../assets/icons/message-square.svg");
+}
+
+.ic_file-text {
+  mask-image: url("../assets/icons/file-text.svg");
+}
